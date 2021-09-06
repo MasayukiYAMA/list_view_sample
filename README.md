@@ -1,16 +1,27 @@
-# list_screen_sample
+# これはなにか
 
-A new Flutter project.
+Flutter × RiverPod(flutter_hooks, hooks_riverpod)を使った
+非同期でデータをロードする無限スクロールビューの実装例。
 
-## Getting Started
+# 構成
 
-This project is a starting point for a Flutter application.
+```
+lib/
+ - infrastructure/
+   - item_repository.dart
+ - models/
+  - item.dart
+  - item.freezed.dart
+ - presentation/
+  - children/
+    - list_item.dart
+  - list_view_controller.dart
+  - list_view_state.dart
+  - list_view_state.freezed.dart
+  - list_view.dart
+ - service/
+  - throttler.dart // スクロールイベントを間引く
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 他
+なにかけばいいかわからないので一旦保留
