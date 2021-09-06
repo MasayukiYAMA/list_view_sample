@@ -3,7 +3,7 @@
 Flutter × RiverPod(flutter_hooks, hooks_riverpod)を使った
 非同期でデータをロードする無限スクロールビューの実装例。
 
-# 構成
+# 
 
 ```
 lib/
